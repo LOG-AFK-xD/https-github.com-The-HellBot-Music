@@ -240,6 +240,10 @@ class MakeButtons:
                 self.ikb(text="Add Me To Your Group 👥", url=f"https://t.me/{username}?startgroup=true"),
             ],
             [
+                self.ikb(text="👨‍💻 Support", url="https://t.me/Team_Bot_support"),
+                self.ikb(text="Updates 👮‍♂", url="https://t.me/Team_Bot_Update"),
+            ],
+            [
                 self.ikb(text="🗑", callback_data="close"),
             ]
         ]
